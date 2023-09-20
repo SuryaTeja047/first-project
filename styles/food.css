@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+}
+body{
+    margin:0px;
+}
+header{
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+nav ul{
+    display: flex;
+    background-color: grey;
+    list-style: none;
+    justify-content: right;
+    padding: 5px;
+}
+nav ul li {
+    margin:10px;
+    font-size:20px;
+    margin-right: 25x;
+}
+nav ul li a:hover{
+    color:white;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+}
+a{
+    text-decoration: none;
+}
+section{
+    margin:0px;
+}
+#home{
+    text-align: center;
+    background-image:url('pexels-lubomir-satko-8672038.jpg');
+    background-size: cover;
+    height: 620px;
+}
+#home  h1{
+    margin-top: 12%;
+    color:white;
+    font-size: 50px;
+}
+#home  h3{
+    margin:35px;
+    color:white;
+    font-size: 35px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    margin: 15px;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background-color: #f0d01c;
+    color: whitesmoke;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #f0efef;
+    color: #fdd700;
+    box-shadow: 1px 1px 10px grey;
+    border:1px solid black;
+}   
+#chooseus{
+    background-color: whitesmoke;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.types{
+    margin:30px;
+    padding: 10px;
+    margin-right: 0px;
+    height: 300px;
+    width: 350px;
+    background-color: white;
+    display: block;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 1px 1px 10px grey;
+}
+span{
+    font-weight: bold;
+    color:black;
+}
+h4{
+    font-size:30px;
+    margin:2px;
+    font-weight: normal;
+}
+p{
+    color:grey;
+    font-size: 20px;
+}
+.ct{
+    display: flex;
+}
+.it{
+    margin:20px;
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px #cdcccc;
+    padding: 10px;
+    text-align: left;
+}
+.it:hover{
+    box-shadow: 3px 3px 20px #cdcccc;
+}
+.im{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.va:hover{
+    text-decoration: underline;
+}
+.va{
+    font-size: 18px;
+    margin-top: 10px;
+    color:#ff7300;
+}
+figcaption{
+    font-size: 25px;
+}
+figure{
+    padding: 0px;
+    margin: 25px;
+}
+#ps{
+    height: 300px;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#dandp{
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#gift{
+    height: 400px;
+    background-image:linear-gradient(to top right, yellow,gold)
+}
+#followus{
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    background-color:whitesmoke;
+}
+#contact{
+    height: 50px;
+    background-color: black;
+    display: block;
+    padding: 50px;
+}
+h3{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.some{
+    display: block;
+    text-align: left;
+    width: 700px;
+    padding: 10px;
+    margin: 30px;
+}
+.sm{
+    height: 50px;
+    margin: 5px;
+}

@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Signup</title>
+    <link rel="stylesheet" type="text/css" href="styles/signup.css">
+</head>
+<body>
+    <form>
+        <div class="container">
+            <div class="left-div">
+                <h1>Sign Up</h1>
+                <input class="ip" type="text" id="username" placeholder="Enter Username" required><br>
+                <input class="ip" type="email" id="mail" placeholder="Enter your mail" required><br>
+                <input class="ip" type="password" id="p" placeholder="Enter new password" required><br>
+                <input class="ip" type="password" id="cp" placeholder="Confirm password" required><br>
+                <button class="bt" onclick="myfunction()">SIGN UP</button><br>
+            </div>
+            <div class="centered-div">
+                <p>OR</p>
+            </div>
+            
+            <div class="right-div">
+                <button id="gb">Sign Up with google</button>
+                <button id="fb">Sign Up with facebook</button>
+            </div>
+        </div>
+    </form>
+    <script>
+        function myfunction(){
+            var h=document.getElementById("username").value;
+            var pass=document.getElementById("p").value;
+            var cpass=document.getElementById("cp").value;
+            
+            if(h.length<6 || h.length>15){
+                alert("Username must be between 6 and 15 characters");
+                return false
+            }
+            if(pass.length<8 || pass.length>12){
+                alert("The password must be between 8 and 12 characters");
+                return false
+            }
+            if(pass!=cpass){
+                alert("Password Doesn't Match");
+                return falses
+            }
+            else
+                true
+        }
+    </script>
+</body>
+</html>
